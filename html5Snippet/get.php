@@ -5,6 +5,8 @@ header('Access-Control-Allow-Methods: GET');
 header('Access-Control-Allow-Origin: http://echo.html5snippet.net');
 
 
+
+
 if (isset($_GET['file']))
 {
     switch($_GET['file'])
