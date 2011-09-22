@@ -15,7 +15,7 @@ if (isset($_GET['file']))
 		break;
 		
 		case 'model.js':
-			die (file_get_contents("model.js"));
+			die (file_get_contents("blenderMonkey3.js"));
 		break;
 	}
 }
